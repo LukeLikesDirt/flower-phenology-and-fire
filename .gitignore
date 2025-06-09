@@ -1,3 +1,14 @@
+# Draft code
+draft/*
+
+# Figures
+*.jpeg
+*.tiff
+
+# Data output
+*summary.txt
+*means.txt
+
 # History files
 .Rhistory
 .Rapp.history
