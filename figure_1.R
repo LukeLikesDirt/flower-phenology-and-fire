@@ -167,7 +167,7 @@ combined_plots <- gridExtra::arrangeGrob(
 grid.newpage()
 grid::grid.draw(combined_plots)
 
-# Save the plot
+# Save the plots
 ggsave(
   "figure_1.jpeg",
   plot = combined_plots,
