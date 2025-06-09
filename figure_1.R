@@ -122,6 +122,7 @@ bubble_exotic <- ggplot(non_native_data, aes(x = Month, y = Species, size = valu
     legend.position = "none"
   )
 
+# Take a look
 print(bubble_exotic)
 
 # Get the ggplot grob
